@@ -1,0 +1,81 @@
+body{
+    background-color: #232323;
+    margin:0px;
+    font-family: "Montserrat","Avenir","Arial";
+}
+
+h1{
+    margin:0px;
+    color:#FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight:normal;
+    font-size:20px;
+    line-height: 35px;
+}
+
+#rgbDisplay{
+    font-size:35px;
+}
+
+h1 + div{
+    background-color:#FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:  steelblue;
+    margin:0px;
+    padding:0px;
+    /*line height reduces to close the small gap above the buttons*/
+    line-height: 1px;
+    /*font-size set to zero to close the gap between the buttons*/
+    font-size: 0px;
+}
+
+button{
+    border:none;
+    background-color:#FFFFFF;
+    color:steelblue;;
+    outline: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+button:hover, .active{
+    background-color:steelblue;
+    color: #FFFFFF;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+}
+
+.container {
+    max-width: 800px;
+    margin:8% auto;
+    padding:0px;
+}
+
+.square {
+    display: inline-block;
+    border-radius: 20%;
+    /* padding added to fill in the div so that color can be seen */
+    padding: 11%;
+    /*Roughly calulated margin to ensure equal spacing on both sides*/
+    margin: 2% 5%;
+    transition: background 0.3s;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+}
+
+#message{
+    display: inline-block;
+    width:30%;
+    color:black;
+    font-size:12px;
+}
+
+
